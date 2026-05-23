@@ -142,9 +142,6 @@ Open `setup.html` in your browser to see a live dashboard of your config status 
 ### Setup Validator
 Run `bash scripts/validate.sh` before deploying to catch missing fields. The deploy script runs this automatically.
 
-### Community Badge
-Optional footer link (off by default). Customize `communityBadgeText` and `skoolUrl` in `config.js` and set `showCommunityBadge: true` if you want it.
-
 ### Security Headers
 CloudFront response headers policy adds HSTS, X-Content-Type-Options, X-Frame-Options, Referrer-Policy, and CSP.
 

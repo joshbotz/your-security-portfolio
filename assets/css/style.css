@@ -1652,32 +1652,6 @@ img {
 
 
 /* ==========================================================
-   V2: COMMUNITY BADGE (footer)
-========================================================== */
-
-.community-badge {
-  width: 100%;
-  text-align: center;
-  padding-top: 1rem;
-  border-top: 1px solid var(--border);
-  margin-top: 1rem;
-}
-
-.community-badge a {
-  color: var(--muted);
-  font-size: 0.82rem;
-  text-decoration: none;
-  opacity: 0.7;
-  transition: opacity 0.15s;
-}
-
-.community-badge a:hover {
-  opacity: 1;
-  color: var(--accent-2);
-}
-
-
-/* ==========================================================
    V2: SKIP LINK (accessibility)
 ========================================================== */
 
@@ -1780,7 +1754,6 @@ img {
   .cta-actions,
   .contact-card-actions,
   [data-template-promo],
-  .community-badge,
   .footer-updated,
   .faq-section,
   .currently-building-section {

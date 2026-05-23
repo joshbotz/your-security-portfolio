@@ -105,8 +105,6 @@ document.addEventListener("DOMContentLoaded", function () {
   setText("[data-site-focus-line]", SITE_CONFIG.focusLine);
 
   // --- CTA labels ---
-  setText("[data-cta-join-community]", SITE_CONFIG.ctaJoinCommunity);
-  setText("[data-cta-join-free-community]", SITE_CONFIG.ctaJoinFreeCommunity);
   setText("[data-cta-view-projects]", SITE_CONFIG.ctaViewProjects);
   setText("[data-cta-browse-projects]", SITE_CONFIG.ctaBrowseProjects);
   setText("[data-cta-open-starter-project]", SITE_CONFIG.ctaOpenStarterProject);
@@ -114,8 +112,8 @@ document.addEventListener("DOMContentLoaded", function () {
   setText("[data-cta-go-home]", SITE_CONFIG.ctaGoHome);
 
   // --- Short copy ---
-  setText("[data-community-short]", SITE_CONFIG.communityShort);
-  setText("[data-community-shorter]", SITE_CONFIG.communityShorter);
+  setText("[data-tagline-short]", SITE_CONFIG.taglineShort);
+  setText("[data-tagline-shorter]", SITE_CONFIG.taglineShorter);
   setText("[data-starter-short]", SITE_CONFIG.starterShort);
   setText("[data-starter-shorter]", SITE_CONFIG.starterShorter);
   setText("[data-proof-of-work-short]", SITE_CONFIG.proofOfWorkShort);
@@ -149,7 +147,6 @@ document.addEventListener("DOMContentLoaded", function () {
   setText("[data-site-footer]", SITE_CONFIG.footerText);
 
   // --- Required links ---
-  setHref("[data-site-skool]", SITE_CONFIG.skoolUrl);
   setHref("[data-site-template-repo]", SITE_CONFIG.templateRepoUrl);
   setMailto("[data-site-email]", SITE_CONFIG.email);
   setText("[data-site-email-text]", SITE_CONFIG.email);
@@ -174,7 +171,6 @@ document.addEventListener("DOMContentLoaded", function () {
   // --- Template promo ---
   setText("[data-template-promo-title]", SITE_CONFIG.templatePromoTitle);
   setText("[data-template-promo-text]", SITE_CONFIG.templatePromoText);
-  setText("[data-template-promo-community-label]", SITE_CONFIG.templatePromoCommunityLabel);
   setText("[data-template-promo-github-label]", SITE_CONFIG.templatePromoGithubLabel);
 
   // --- Shared assets ---
@@ -381,7 +377,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
   /* ======================================================
-     FOOTER EXTRAS — community badge + last updated
+     FOOTER EXTRAS — last updated
      ====================================================== */
 
   var footerInner = document.querySelector(".footer-inner");
@@ -391,18 +387,6 @@ document.addEventListener("DOMContentLoaded", function () {
     updated.className = "footer-updated";
     updated.textContent = "Last updated: " + SITE_CONFIG.lastUpdated;
     footerInner.appendChild(updated);
-  }
-
-  if (footerInner && SITE_CONFIG.showCommunityBadge) {
-    var badge = document.createElement("div");
-    badge.className = "community-badge";
-    var link = document.createElement("a");
-    link.href = SITE_CONFIG.skoolUrl || "";
-    link.target = "_blank";
-    link.rel = "noopener noreferrer";
-    link.textContent = SITE_CONFIG.communityBadgeText || "Built with this template";
-    badge.appendChild(link);
-    footerInner.appendChild(badge);
   }
 
 

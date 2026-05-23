@@ -167,8 +167,8 @@ const SITE_CONFIG = {
   focusAreasSectionDesc: "Three categories of cloud security work, shipped with the same discipline: real evidence, honest scoping, AI used responsibly.",
 
   // --- Shared Short Copy ---
-  communityShort: "An AI-augmented cloud security portfolio: AWS projects shipped end to end, documented for review, and honest about what was in scope.",
-  communityShorter: "AI-augmented cloud security work in AWS &mdash; shipped, documented, defensible.",
+  taglineShort: "An AI-augmented cloud security portfolio: AWS projects shipped end to end, documented for review, and honest about what was in scope.",
+  taglineShorter: "AI-augmented cloud security work in AWS &mdash; shipped, documented, defensible.",
   starterShort: "Cloud security projects you can read like real engagements: scoping, evidence, decisions, limitations, lessons.",
   starterShorter: "Cloud security work shipped and documented for the role, not the resume bullet.",
   proofOfWorkShort: "Projects written so a reviewer can scan them in 30 seconds and a senior practitioner can see real depth on a slow read.",
@@ -176,14 +176,8 @@ const SITE_CONFIG = {
   // --- Template Promo ---
   templatePromoTitle: "Build your own portfolio",
   templatePromoText: "Want a portfolio like this? Fork the template, deploy on AWS in about 30 minutes, then fill it with your real work.",
-  templatePromoCommunityLabel: "View the Template on GitHub",
   templatePromoGithubLabel: "Get the Template",
-  skoolUrl: "https://github.com/joshbotz/your-security-portfolio",
   templateRepoUrl: "https://github.com/joshbotz/your-security-portfolio",
-
-  // --- Community Badge ---
-  showCommunityBadge: false,
-  communityBadgeText: "Built with this template",
 
   // --- Assets ---
   headshotPath: "assets/img/headshot.png",
@@ -196,8 +190,6 @@ const SITE_CONFIG = {
   ogSiteName: "",
 
   // --- CTA Labels ---
-  ctaJoinCommunity: "Join the Community",
-  ctaJoinFreeCommunity: "Build Yours in the Community",
   ctaViewProjects: "View Projects",
   ctaBrowseProjects: "Browse Projects",
   ctaOpenStarterProject: "Open Featured Project",

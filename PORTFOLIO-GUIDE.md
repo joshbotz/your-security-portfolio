@@ -1,6 +1,6 @@
-# Student Guide
+# Portfolio Guide
 
-A practical walkthrough for using this portfolio template — built for [AI Cloud Security Lab](https://www.skool.com/cloud-security-lab) members, but useful for anyone shipping a cloud security portfolio.
+A practical walkthrough for using this portfolio template — for anyone shipping a cloud security portfolio.
 
 This guide covers the full journey: get your own copy → personalize → add projects → deploy → share. Take it section by section. The whole thing is designed to be doable in a focused afternoon.
 
@@ -95,27 +95,18 @@ Open the new file. Search for `[` to find every placeholder. Replace each one wi
 
 Then add a card to `projects.html` in the `projects-grid` section. The card HTML is provided in the comments at the top of `project-template.html` — copy it, update the title / description / href, paste.
 
-### Option B — Add an AI Cloud Security Lab course showcase
+### Option B — Adapt the public Wazuh AI SOC Lab as a portfolio project
 
-If you've completed Courses 1-3 of the [AI Cloud Security Lab](https://www.skool.com/cloud-security-lab), there are pre-built portfolio pages for each course's deliverables in the companion repo:
+If you run [Wazuh AI SOC Lab](https://github.com/botz-pillar/wazuh-ai-soc-lab) (open-source SIEM + AI investigation lab on AWS), the experience generates a real portfolio artifact — six-phase investigation, custom detection rule, SOC 2 evidence package. That's perfect material for a portfolio project page.
 
-**[botz-pillar/your-security-portfolio-course-pages](https://github.com/botz-pillar/your-security-portfolio-course-pages)**
+To turn it into a project page:
 
-Available pages:
-- `cloud-trail-assessment.html` — Course 1 CloudTrail security assessment
-- `incident-response.html` — Course 2 cloud incident response report
-- `soc2-compliance.html` — Course 2 SOC 2 readiness assessment
-- `wazuh-ai-siem.html` — Course 3 production Wazuh + AI SIEM
+1. Copy `projects/project-template.html` into a new file (e.g., `projects/wazuh-soc-lab.html`).
+2. Fill in placeholders with your real numbers from the lab: number of agents, MITRE TTPs exercised, hunt dispositions, the custom rule you wrote, the SOC 2 controls you covered.
+3. Rewrite the `<!-- REWRITE IN YOUR VOICE -->` paragraphs.
+4. Add a card to `projects.html`.
 
-For each course you completed:
-
-1. Download the matching HTML file from the companion repo (click the file → "Raw" → save).
-2. Drop it into your portfolio's `projects/` folder.
-3. Open it, search for `[`, replace placeholders with your real findings, numbers, and details.
-4. Rewrite the `<!-- REWRITE IN YOUR VOICE -->` paragraphs.
-5. Add a card to `projects.html`.
-
-If you didn't complete a particular course, skip that file. Your portfolio should only contain work you can defend in an interview.
+Your portfolio should only contain work you can defend in an interview. If you didn't actually run the lab end-to-end, don't put it on the site.
 
 ### Delete the "Add Yours" guidepost cards
 
@@ -189,10 +180,9 @@ bash scripts/deploy-site.sh
 
 Your portfolio is live. Use it.
 
-- **Post your live URL in the AI-CSL `#wins` channel.** Cohort visibility, peer feedback, social proof.
-- **Share on LinkedIn** with a one-paragraph note about the work and tag `@AI Cloud Security Lab`.
+- **Share on LinkedIn** with a one-paragraph note about the work.
 - **Add the URL to your resume header** — directly under your name.
-- **Refer a friend** who'd benefit from the community.
+- **Send it to people you'd actually want feedback from** — a senior practitioner in your network, a mentor, an old manager.
 
 The portfolio gets stronger as you ship more projects to it. Add one project per month and in a year you have a body of work most candidates can't match.
 
@@ -210,10 +200,9 @@ The portfolio gets stronger as you ship more projects to it. Add one project per
 
 ## Where to find help
 
-- **AI Cloud Security Lab community** — best place for course-specific questions, peer review, and shipped-project feedback
 - **Issues on this repo** — for bugs in the template itself
 - **Existing docs** — `docs/student-notes.md`, `docs/architecture-notes.md`, `docs/troubleshooting.md`
 
 ---
 
-Built for [AI Cloud Security Lab](https://www.skool.com/cloud-security-lab) members. Use it well — the work you put in shows.
+Use the template well — the work you put in shows.

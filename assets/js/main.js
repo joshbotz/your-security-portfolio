@@ -397,10 +397,10 @@ document.addEventListener("DOMContentLoaded", function () {
     var badge = document.createElement("div");
     badge.className = "community-badge";
     var link = document.createElement("a");
-    link.href = SITE_CONFIG.skoolUrl || "https://www.skool.com/cloud-security-lab";
+    link.href = SITE_CONFIG.skoolUrl || "";
     link.target = "_blank";
     link.rel = "noopener noreferrer";
-    link.textContent = "Built with the AI Cloud Security Lab";
+    link.textContent = SITE_CONFIG.communityBadgeText || "Built with this template";
     badge.appendChild(link);
     footerInner.appendChild(badge);
   }

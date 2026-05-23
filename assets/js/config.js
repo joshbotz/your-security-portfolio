@@ -175,14 +175,15 @@ const SITE_CONFIG = {
 
   // --- Template Promo ---
   templatePromoTitle: "Build your own portfolio",
-  templatePromoText: "Want a version like this? Join the AI Cloud Security Lab community and use this template to build, deploy, and launch your own portfolio.",
-  templatePromoCommunityLabel: "Join the AI Cloud Security Lab",
+  templatePromoText: "Want a portfolio like this? Fork the template, deploy on AWS in about 30 minutes, then fill it with your real work.",
+  templatePromoCommunityLabel: "View the Template on GitHub",
   templatePromoGithubLabel: "Get the Template",
-  skoolUrl: "https://www.skool.com/cloud-security-lab",
+  skoolUrl: "https://github.com/botz-pillar/your-security-portfolio",
   templateRepoUrl: "https://github.com/botz-pillar/your-security-portfolio",
 
   // --- Community Badge ---
-  showCommunityBadge: true,
+  showCommunityBadge: false,
+  communityBadgeText: "Built with this template",
 
   // --- Assets ---
   headshotPath: "assets/img/headshot.png",
@@ -237,8 +238,8 @@ const SITE_CONFIG = {
   projectsManifestWhatShows: "Real cloud security work, shipped with discipline",
   suggestedProjectOneTitle: "Your Original Project",
   suggestedProjectOneDescription: "Drop in your own work here &mdash; a lab you built, an engagement you can write about, a side project that proves something specific. Use project-template.html as the starting structure.",
-  suggestedProjectTwoTitle: "Course Project Showcase",
-  suggestedProjectTwoDescription: "Add showcase pages from the course-pages companion repo for each AI Cloud Security Lab course you've completed. Drop the file into projects/, customize, and add a card here.",
+  suggestedProjectTwoTitle: "A Lab You Ran End-to-End",
+  suggestedProjectTwoDescription: "Add a writeup of a security lab you ran from start to finish &mdash; a SIEM deployment, an IR exercise, a detection-engineering build. Drop a file into projects/, customize, and add a card here.",
 
   // --- Contact Page ---
   contactSchedulingCardDesc: "Skip the back-and-forth — pick a time that works and let's talk.",

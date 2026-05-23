@@ -4,9 +4,7 @@ A practical portfolio starter for cloud security professionals who want to publi
 
 **[→ Use this template](https://github.com/botz-pillar/your-security-portfolio/generate)** to create your own copy on GitHub.
 
-**[→ STUDENT-GUIDE.md](STUDENT-GUIDE.md)** — full walkthrough: get your copy → personalize → add projects → deploy → share.
-
-**Companion repo for AI Cloud Security Lab members:** [your-security-portfolio-course-pages](https://github.com/botz-pillar/your-security-portfolio-course-pages) — pre-built project pages for each course's deliverables.
+**[→ PORTFOLIO-GUIDE.md](PORTFOLIO-GUIDE.md)** — full walkthrough: get your copy → personalize → add projects → deploy → share.
 
 ---
 
@@ -145,7 +143,7 @@ Open `setup.html` in your browser to see a live dashboard of your config status 
 Run `bash scripts/validate.sh` before deploying to catch missing fields. The deploy script runs this automatically.
 
 ### Community Badge
-Subtle "Built with the AI Cloud Security Lab" link in the footer. Set `showCommunityBadge: false` in config to remove it.
+Optional footer link (off by default). Customize `communityBadgeText` and `skoolUrl` in `config.js` and set `showCommunityBadge: true` if you want it.
 
 ### Security Headers
 CloudFront response headers policy adds HSTS, X-Content-Type-Options, X-Frame-Options, Referrer-Policy, and CSP.

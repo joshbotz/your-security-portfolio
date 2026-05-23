@@ -2,7 +2,7 @@
 
 A practical portfolio starter for cloud security professionals who want to publish a clean, professional site quickly. Designed around an AI-augmented practitioner positioning so the default copy reads like a real cloud security engineer, not a course-completion artifact.
 
-**[→ Use this template](https://github.com/botz-pillar/your-security-portfolio/generate)** to create your own copy on GitHub.
+**[→ Use this template](https://github.com/joshbotz/your-security-portfolio/generate)** to create your own copy on GitHub.
 
 **[→ PORTFOLIO-GUIDE.md](PORTFOLIO-GUIDE.md)** — full walkthrough: get your copy → personalize → add projects → deploy → share.
 

@@ -178,8 +178,8 @@ const SITE_CONFIG = {
   templatePromoText: "Want a portfolio like this? Fork the template, deploy on AWS in about 30 minutes, then fill it with your real work.",
   templatePromoCommunityLabel: "View the Template on GitHub",
   templatePromoGithubLabel: "Get the Template",
-  skoolUrl: "https://github.com/botz-pillar/your-security-portfolio",
-  templateRepoUrl: "https://github.com/botz-pillar/your-security-portfolio",
+  skoolUrl: "https://github.com/joshbotz/your-security-portfolio",
+  templateRepoUrl: "https://github.com/joshbotz/your-security-portfolio",
 
   // --- Community Badge ---
   showCommunityBadge: false,

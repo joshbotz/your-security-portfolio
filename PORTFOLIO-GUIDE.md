@@ -10,7 +10,7 @@ This guide covers the full journey: get your own copy → personalize → add pr
 
 This repo is a [GitHub Template](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template). You don't fork it — you create a new independent repo from it.
 
-1. Go to **[botz-pillar/your-security-portfolio](https://github.com/botz-pillar/your-security-portfolio)** on GitHub.
+1. Go to **[joshbotz/your-security-portfolio](https://github.com/joshbotz/your-security-portfolio)** on GitHub.
 2. Click the green **"Use this template"** button → **"Create a new repository"**.
 3. Name it (e.g., `firstname-portfolio`), set to **public** (recruiters need to see it), and create.
 4. Clone your new repo locally:
@@ -97,7 +97,7 @@ Then add a card to `projects.html` in the `projects-grid` section. The card HTML
 
 ### Option B — Adapt the public Wazuh AI SOC Lab as a portfolio project
 
-If you run [Wazuh AI SOC Lab](https://github.com/botz-pillar/wazuh-ai-soc-lab) (open-source SIEM + AI investigation lab on AWS), the experience generates a real portfolio artifact — six-phase investigation, custom detection rule, SOC 2 evidence package. That's perfect material for a portfolio project page.
+If you run [Wazuh AI SOC Lab](https://github.com/joshbotz/wazuh-ai-soc-lab) (open-source SIEM + AI investigation lab on AWS), the experience generates a real portfolio artifact — six-phase investigation, custom detection rule, SOC 2 evidence package. That's perfect material for a portfolio project page.
 
 To turn it into a project page:
 
